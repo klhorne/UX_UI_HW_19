@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kimberly's Portfolio</title>
+    <link rel="stylesheet" href="CSS/homestyle.css">
+</head>
+
+<body>
+    <header>
+        <div class="inline-block logo">
+            <img src="images/logo.png">
+        </div>
+        <nav class="inline-block">
+            <ul>
+                <li class="inline-block">Work</li>
+                <li class="inline-block">About</li>
+                <li class="inline-block">Resume</li>
+                <li class="inline-block">Contact</li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section class="heroImg"> 
+        <div class="contentcontainer">
+            
+            <div class="content">
+                <p> <strong> I'm Kim, a copywriter turned UX Designer.</strong></p>
+                <p> Let's design something awe-inspiring together.</p>  
+            </div>
+        </div>
+
+        <img src="images/laptophome.png" style="height: 600px;">
+    
+    </section>
+
+    <section class="mywork1">
+        <div class="work-container pink-background">
+            <div class="work-image">
+                <img src="images/GoBuddymockhome.png" style="height: 600px;">
+            </div>
+            <div class="work-text">
+                <h1>GoBuddy</h1>
+                <p>A travel app that helps adventurers explore new places with self-guided audio tours.</p>
+                <button class="button">View Project</button>
+            </div>
+           
+        </div>
+    </section>
+
+    <section class="mywork2">
+        <div class="work-container blue-background">
+            <div class="work-text">
+                <h1>No Dog Left Behind</h1>
+                <p>An organization dedicated to protecting and finding forever families for abused, neglected, and abandoned dogs. This is a redesign of their mobile website.</p>
+                <button class="button">View Project</button>
+            </div>
+            <div class="work-image">
+                <img src="images/NDLBmockhome.png" style="height: 600px;">
+            </div>
+        </div>
+    </section>
+ 
+
+</section> 
+    
+    <footer>
+        <div class="footer">
+            <div class="footer-section social">
+                <h3>Social Media</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/kimberlysbooklist/" > Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/kimberlyhorne/">  Linkedin </a></li>
+                </ul>
+                
+            </div>
+    
+            <div class="footer-section links">
+                <h3>Links</h3>
+                <ul>
+                    <li class="inline-block">Work</li>
+                    <li class="inline-block">About</li>
+                    <li class="inline-block">Resume</li>
+                    <li class="inline-block">Contact</li>
+                </ul>
+            </div>
+    
+            <div class="footer-section thank-you">
+                <h2>Thank you for visiting!</h2>
+                <p>Email: khonre5@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+    
+        
+    
+</body>
+</html>
