@@ -195,25 +195,22 @@ li {
     margin: 5px 0;}
   
 
-/* Add space between sections */
+/* About me section */
 .about-section {
     padding: 50px 0;
     background-color: #F9F9F9;
 }
 
-/* Adjust the maximum width of the about container */
 .about-container {
     max-width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row-reverse; /* Reverse the order of image and text for alternate sections */
-}
+    flex-direction: row-reverse; 
 
-/* Styling for the aboutme box */
 .aboutmebox {
-    width: 45%; /* Adjust the width as needed */
+    width: 45%; 
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -229,29 +226,9 @@ li {
     margin: 5px 0;
 }
 
-/* Styling for the images */
 .about-image img {
     height: 600px;
 }
-
-/* Rest of your existing CSS styles */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Footer */
 footer {
@@ -312,6 +289,61 @@ footer {
     display: flex;
     flex-direction: column ;
     align-items: flex-start;
+}
+/*mobile media query*/
+
+@media (max-width: 768px) {
+    header {
+        padding: 5px; 
+    }
+
+    nav {
+        width: 100%; 
+        justify-content: center; 
+    }
+
+    .logo {
+        width: 100%; 
+        text-align: center;
+        margin-bottom: 20px; 
+    }
+
+    .logo img {
+        max-height: 80px; 
+    }
+
+    .heroImg {
+        height: auto; 
+    }
+
+    .content {
+        width: 100%; 
+        font-size: 24px; 
+        text-align: center; 
+        padding: 10px; 
+    }
+
+
+    .work-container {
+        flex-direction: column;
+    }
+
+    .work-text {
+        font-size: 18px;
+    }
+
+    .box {
+        font-size: 18px;
+    }
+
+    .aboutmebox {
+        font-size: 18px;
+    }
+
+    .footer h2,
+    .footer p {
+        font-size: 18px;
+    }
 }
 
 
