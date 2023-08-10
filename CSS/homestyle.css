@@ -162,32 +162,96 @@ li {
 }
 
 /*resume*/
-
-
+.resume-section {
+    padding: 50px 0;
+    background-color: #F9F9F9;
+}
 
 .resume-container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
+    max-width: 80%; 
     margin: 0 auto;
-  }
-  
-  .box {
-    width: 300px;
-    padding: 50px;
-    margin: 20px;
+}
+
+.box {
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-  }
-  
-  .box h2 {
-    margin-top: 0;
-  }
-  
-  .box p {
-    margin: 10px 0;}
+    background-color: white; 
+}
 
+.resumehighlighttext {
+    text-align: center;
+    font-size: 44px; 
+}
+
+.box h2 {
+    margin-top: 0;
+    margin-bottom: 15px; 
+}
+
+.box p {
+    margin: 5px 0;}
   
+
+/* Add space between sections */
+.about-section {
+    padding: 50px 0;
+    background-color: #F9F9F9;
+}
+
+/* Adjust the maximum width of the about container */
+.about-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse; /* Reverse the order of image and text for alternate sections */
+}
+
+/* Styling for the aboutme box */
+.aboutmebox {
+    width: 45%; /* Adjust the width as needed */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: white;
+}
+
+.aboutmebox h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.aboutmebox p {
+    margin: 5px 0;
+}
+
+/* Styling for the images */
+.about-image img {
+    height: 600px;
+}
+
+/* Rest of your existing CSS styles */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 footer {
