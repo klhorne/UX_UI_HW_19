@@ -195,40 +195,6 @@ li {
     margin: 5px 0;}
   
 
-/* About me section */
-.about-section {
-    padding: 50px 0;
-    background-color: #F9F9F9;
-}
-
-.about-container {
-    max-width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row-reverse; 
-
-.aboutmebox {
-    width: 45%; 
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    background-color: white;
-}
-
-.aboutmebox h2 {
-    margin-top: 0;
-    margin-bottom: 15px;
-}
-
-.aboutmebox p {
-    margin: 5px 0;
-}
-
-.about-image img {
-    height: 600px;
-}
 
 /* Footer */
 footer {
@@ -345,8 +311,99 @@ footer {
     }
 }
 
+
+  
+  /*about me overview*/
+
+  .aboutoverview {
+    height: 1000px;
+    padding: 25px;
+    align-items: flex-start;
+    background-color:#FCF6F6; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentabout {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 44px;
+    text-align: left; 
+}
+
+  /*about me lets get personal section*/
   
   
+  .photo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
   
+  .photo {
+    width: 30%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .photo-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .photo {
+    width: 30%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .text-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    
+  }
+  
+  .text-box {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #E5DCD5;
+  }
+
+
+  .text-box1 {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #DDDFF2;
+  }
+
+  .text-box2 {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #BBEBEE;
+  }
+
+ .text-box3 {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #D6E5E6;
+  }
+
   
 
