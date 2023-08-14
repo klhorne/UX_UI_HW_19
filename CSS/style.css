@@ -312,23 +312,21 @@ li {
   }
   
   
-  
+  /*contact info*/
   .contact {
-    height: 600px;
-    padding: 25px;
+    height: 200px;
+    padding: 55px;
     align-items: flex-start;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F2F2F2;
+    background-color: #E5DCD5;
 }
 
 .contact h1, .contact p {
-    font-size: 24px;
+    font-size: 34px;
     text-align: center;
 }
-
-
 
 
 /* Footer */
