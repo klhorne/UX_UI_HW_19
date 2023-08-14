@@ -62,7 +62,7 @@ li {
     height: 600px;
     padding: 25px;
     align-items: flex-start;
-    background-color: #E5DCD5; 
+    background-color: #E8C0BC; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,14 +92,14 @@ li {
     margin: 40px 0;
 }
 
-.work-container.pink-background { /*gobuddy design background*/
-    background-color: #E8C0BC; 
+.work-container.Go-background { /*gobuddy design background*/
+    background-color: #D6E5E6; 
     max-width: 80%;
     font-size: 34px;
 }
 
-.work-container.blue-background { /*NDLB design background*/
-    background-color: #D6E5E6; 
+.work-container.NDLB-background { /*NDLB design background*/
+    background-color: #E5DCD5; 
     max-width: 80%;
   
 }
