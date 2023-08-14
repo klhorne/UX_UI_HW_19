@@ -31,8 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const downloadButton = document.getElementById("downloadButton");
 
     downloadButton.addEventListener("click", () => {
-        const pdfUrl = "images/Resumeportfolio.pdf"; // Updated PDF URL
-        const fileName = "Resumeportfolio.pdf"; // Updated file name
+        const pdfUrl = "images/Resumeportfolio.pdf"; 
+        const fileName = "Resumeportfolio.pdf"; 
 
         const a = document.createElement("a");
         a.href = pdfUrl;
