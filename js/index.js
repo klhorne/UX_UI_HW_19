@@ -1,37 +1,45 @@
-console.log("Your index.js file is loaded correctly!");
+document.addEventListener('DOMContentLoaded', function () {
+    console.log("Your index.js file is loaded correctly!");
 
-const workNavItem = document.querySelector('.nav-work');
-const aboutNavItem = document.querySelector('.nav-about');
-const resumeNavItem = document.querySelector('.nav-resume');
-const contactNavItem = document.querySelector('.nav-contact');
+    // Navigation scrolling
+    const sections = {
+        work: document.querySelector('.mywork1'),
+        about: document.querySelector('.aboutoverview'),
+        resume: document.querySelector('.resumecenterpage'),
+        contact: document.querySelector('.contact'),
+    };
 
-const workSection = document.querySelector('.mywork1');
-const aboutSection = document.querySelector('.aboutoverview');
-const resumeSection = document.querySelector('.resumecenterpage');
-const contactSection = document.querySelector('.contact'); // Add this line
+    const navItems = {
+        work: document.querySelector('.nav-work'),
+        about: document.querySelector('.nav-about'),
+        resume: document.querySelector('.nav-resume'),
+        contact: document.querySelector('.nav-contact'),
+    };
 
-workNavItem.addEventListener('click', () => scrollToSection(workSection));
-aboutNavItem.addEventListener('click', () => scrollToSection(aboutSection));
-resumeNavItem.addEventListener('click', () => scrollToSection(resumeSection));
-contactNavItem.addEventListener('click', () => scrollToSection(contactSection)); // Add this line
-
-function scrollToSection(section) {
-    window.scrollTo({
-        top: section.offsetTop,
-        behavior: 'smooth'
+    Object.keys(navItems).forEach(sectionKey => {
+        navItems[sectionKey].addEventListener('click', () => scrollToSection(sections[sectionKey]));
     });
-}
 
-const footerLinks = document.querySelectorAll('.footer-section.links a');
+    function scrollToSection(section) {
+        window.scrollTo({
+            top: section.offsetTop,
+            behavior: 'smooth'
+        });
+    }
 
-footerLinks.forEach(link => {
-    link.addEventListener('click', event => {
-        event.preventDefault();
-        const targetId = link.getAttribute('href');
-        const targetSection = document.querySelector(targetId);
-        if (targetSection) {
-            scrollToSection(targetSection);
-        }
+    // Download resume button
+    const downloadButton = document.getElementById("downloadButton");
+
+    downloadButton.addEventListener("click", () => {
+        const pdfUrl = "images/Resumeportfolio.pdf"; // Updated PDF URL
+        const fileName = "Resumeportfolio.pdf"; // Updated file name
+
+        const a = document.createElement("a");
+        a.href = pdfUrl;
+        a.download = fileName;
+        a.style.display = "none";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
     });
 });
-

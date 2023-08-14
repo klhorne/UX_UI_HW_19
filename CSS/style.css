@@ -139,7 +139,7 @@ li {
 /*  Button Styling */
 .button {
     display: inline-block;
-    padding: 20px 20px;
+    padding: 15px 15px;
     background-color: #FACF7B;
     color: black;
     border: none;
@@ -160,6 +160,14 @@ li {
     background-color:#E5DCD5;
     transform: scale (1.1);
 }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+padding-bottom: 10px;}
+
 
   /*about me overview*/
 
