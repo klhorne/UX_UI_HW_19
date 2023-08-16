@@ -5,7 +5,6 @@ font-family: Arial, Helvetica, sans-serif;
 body {
     margin: 0;
     padding: 0;
-    background-color:white;
 }
 
 .inline-block{
@@ -16,7 +15,7 @@ body {
 /* Navigation style codes */
 
 header {
-    background-color: #E8C0BC;
+    background-color: #7D2647;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -26,7 +25,7 @@ header {
 nav {
     width: 23%;
     padding: 1%;
-    color: black;
+    color: white;
     display: flex;
     justify-content: flex-end;
     font-size: 24px;
@@ -62,7 +61,7 @@ li {
     height: 600px;
     padding: 25px;
     align-items: flex-start;
-    background-color: #E8C0BC; 
+    background-color: #7D2647; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,13 +71,13 @@ li {
     width: 900px;
     margin: 0 auto;
     font-size: 48px;
-    text-align: left; 
+    text-align: left;
+    color: white; 
 }
 
 /* Work sections */
 .mywork1, /*impacts center alignment*/
 .mywork2 {
-   padding: 50px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,13 +92,13 @@ li {
 }
 
 .work-container.Go-background { /*gobuddy design background*/
-    background-color: #D6E5E6; 
+    background-color: #F6F6F6; 
     max-width: 80%;
     font-size: 34px;
 }
 
 .work-container.NDLB-background { /*NDLB design background*/
-    background-color: #D6E5E6; 
+    background-color: #F6F6F6; 
     max-width: 80%;
   
 }
@@ -139,8 +138,8 @@ li {
 /*  Button Styling */
 .button {
     display: inline-block;
-    padding: 15px 15px;
-    background-color: #FACF7B;
+    padding: 25px 25px;
+    background-color: #7D2647;
     color: black;
     border: none;
     border-radius: 5px;
@@ -148,10 +147,12 @@ li {
     cursor: pointer;
     text-align: center;
     text-decoration: none;
+    color: white;
+    text
 }
 
 .button:hover {
-    background-color:  #FACF7B;
+    background-color:  #D35D8A;
     transform: scale(1.1);
 
 }
@@ -178,7 +179,8 @@ padding-bottom: 10px;}
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FCF6F6 ;
+    background-color: #FFEDF4 ;
+    
 }
 
 .contentabout {
@@ -186,6 +188,12 @@ padding-bottom: 10px;}
     margin: 0 auto;
     font-size: 24px;
     text-align: left; 
+    color: black;
+}
+
+
+.abouttext{
+    color: black;
 }
   
   .letsgetpersonal{
@@ -233,25 +241,22 @@ padding-bottom: 10px;}
    .text-box1 {
     width: 20%;
     padding: 10px;
-    border: 1px solid #ccc;
     box-sizing: border-box;
-    background-color: #DDDFF2;
+    background-color: #FFEDF4;
   }
 
   .text-box2 {
     width: 20%;
     padding: 10px;
-    border: 1px solid #ccc;
     box-sizing: border-box;
-    background-color: #BBEBEE;
+    background-color: #FFEDF4;
   }
 
  .text-box3 {
     width: 20%;
     padding: 10px;
-    border: 1px solid #ccc;
     box-sizing: border-box;
-    background-color: #D6E5E6;
+    background-color: #FFEDF4;
   }
 
 /*Resume new section*/ 
@@ -288,7 +293,8 @@ padding-bottom: 10px;}
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
     margin-bottom: 30px; 
-    background-color: #E8C0BC;
+    background-color: #F6F6F6;
+    color: black;
   }
   
   .resume-item:hover {
@@ -302,7 +308,7 @@ padding-bottom: 10px;}
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #FCF6F6;
+    background-color: #FFEDF4;
     display: none;
     flex-direction: column;
     padding: 10px;
@@ -336,7 +342,8 @@ padding-bottom: 10px;}
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E5DCD5;
+    background-color: #7D2647;
+    color: white;
 }
 
 .contact h1, .contact p {
