@@ -139,7 +139,7 @@ li {
 .button {
     display: inline-block;
     padding: 25px 25px;
-    background-color: #7D2647;
+    background-color: #80B918;
     color: black;
     border: none;
     border-radius: 5px;
@@ -152,7 +152,7 @@ li {
 }
 
 .button:hover {
-    background-color:  #D35D8A;
+    background-color:  green;
     transform: scale(1.1);
 
 }
